@@ -1,6 +1,6 @@
 {
   "name": "abinabbas",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cli name card generator",
   "bin": "index.js",
   "scripts": {
