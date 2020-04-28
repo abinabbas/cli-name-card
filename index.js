@@ -2,7 +2,6 @@
 
 const chalk = require("chalk");
 const boxen = require("boxen");
-const terminalImage = require("terminal-image");
 
 (async () => {
 
@@ -30,7 +29,7 @@ const terminalImage = require("terminal-image");
     labelMail: chalk.white.bold("     Email:"),
     labelPhone: chalk.white.bold("     Phone:"),
     labelWeb: chalk.white.bold("       Web:")
-  };
+  }; 
 
   //Creating Output
   const output = `
@@ -44,8 +43,6 @@ const terminalImage = require("terminal-image");
 
   ${user.labelWeb}  ${user.web}
   `;
-
-  console.log('\n');
-  console.log(await terminalImage.file("./assets/dp/abinabbas.jpg"));
+  
   console.log(chalk.grey(boxen(output, options)));
 })();

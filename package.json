@@ -1,7 +1,7 @@
 {
   "name": "abinabbas",
-  "version": "2.0.1",
-  "description": "Cli name card generator",
+  "version": "2.1.0",
+  "description": "CLI name card generator",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "boxen": "^4.2.0",
-    "chalk": "^4.0.0",
-    "terminal-image": "^0.2.0"
+    "chalk": "^4.0.0"
   }
 }
