@@ -1,20 +1,21 @@
 {
   "name": "abinabbas",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Cli name card generator",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "abinabbas/cli-name-card",
-	"author": {
-		"name": "Abin Abbas",
-		"email": "abinabbas@icloud.com",
-		"url": "abinabbas.com"
-	},
+  "author": {
+    "name": "Abin Abbas",
+    "email": "abinabbas@icloud.com",
+    "url": "abinabbas.com"
+  },
   "license": "MIT",
   "dependencies": {
     "boxen": "^4.2.0",
-    "chalk": "^4.0.0"
+    "chalk": "^4.0.0",
+    "terminal-image": "^0.2.0"
   }
 }
