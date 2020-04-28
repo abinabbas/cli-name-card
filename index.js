@@ -20,7 +20,7 @@ const boxen = require("boxen");
     work: chalk.white("Head Geek at Datameris"),
     github: chalk.cyan("github.com/abinabbas"),
     linkedin: chalk.cyan("linkedin.com/in/abinabbas"),
-    mail: chalk.white("abinabbas@datameris.com"),
+    mail: chalk.white("abinabbas@icloud.com"),
     phone: chalk.white("+91-9946-986806"),
     web: chalk.cyan("abinabbas.com"),
     labelWork: chalk.white.bold("      Work:"),
